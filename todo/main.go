@@ -32,7 +32,7 @@ func main() {
 
 func createClient() (*firestore.Client, error) {
 	ctx := context.Background()
-	conf := &firebase.Config{ProjectID: "go-api-gin-e3213"}
+	conf := &firebase.Config{ProjectID: "go-deploy-414616"}
 
 	app, err := firebase.NewApp(ctx, conf)
 
