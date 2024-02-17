@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-ENV GOOGLE_APPLICATION_CREDENTIALS="/app/go-api-gin-e3213-646f1b23c89c.json"
+ENV GOOGLE_APPLICATION_CREDENTIALS="/app/go-deploy-414616-49ffc912d41d.json"
 
 WORKDIR /app/todo
 
