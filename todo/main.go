@@ -26,6 +26,7 @@ func main() {
 
 	r.PATCH("/api/update-todo/:id", handlers.UpdateTodosHandler(client))
 	r.DELETE("/api/delete-todo/:id", handlers.DeleteTodosHandler(client))
+	r.PUT("/api/update-dsc-todo/", handlers.UpdateDescriptionHandler(client))
 
 	r.Run(":8080")
 }
